@@ -534,7 +534,7 @@
 /* testimonail */
 /* contact */
 .contact{
-  background-image:url('/img/skate.jpg');
+  background-image:url('../img/skate.jpg');
   background-size: cover;
   padding-top:150px;
   padding-bottom:150px;
