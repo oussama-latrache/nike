@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/design.css"> 
+    <title>Document</title>
+</head>
+<body>
+
+
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container d-flex">
+          <a class="navbar-brand" href="#"><svg width="48" height="19" viewBox="0 0 48 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M48 0L12.8837 16.908C9.97171 18.3012 7.52569 19 5.54767 19C3.30765 19 1.68164 18.1134 0.673633 16.3381C0.039628 15.1982 -0.146373 13.753 0.113629 12.0002C0.373631 10.2475 1.06564 8.38162 2.18564 6.39591C3.11965 4.79014 4.64966 2.68004 6.77968 0.0633255C6.0572 1.34944 5.52741 2.76159 5.21167 4.24283C4.65166 6.94548 5.15567 8.92894 6.72368 10.1955C7.46969 10.7857 8.49569 11.082 9.8037 11.082C10.8477 11.082 12.0237 10.892 13.3317 10.5121L48 0Z" fill="black"/>
+            </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          <div class="collapse navbar-collapse justify-content-evenly" id="main">
+            <ul class="navbar-nav mb-4 mb-lg-0 align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonail</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Collection</a>
+              </li>
+            </ul>
+            <ul class="shopit d-flex align-content-center  mb-0">
+              <li class="nav-item list-unstyled"><i class="fa-solid fa-magnifying-glass"></i></li>
+              <li class="nav-item ms-4 list-unstyled"><i class=" fa-solid fa-basket-shopping"></i></li>
+              <li class="nav-item ms-4 list-unstyled"><i class="fa-solid fa-user"></i></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- landing page -->
+      <div class="landing">
+        <div class="container d-flex justify-content-evenly align-items-center">
+            <div class="text">
+              <h1>Summer <br> Collection </h1>
+              <h3>2022</h3>
+              <p>Lorem ipsum dolor sit, m Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, aspernatur.</p>
+              <button type="button" class="btn btn-md">Shop now <i class="fa-solid fa-arrow-right-long ms-2"></i></button>
+              <div class="chose">
+                <div class="box a">
+                  <div class="images">
+                    <img src="img/pngwing.com (2).png" alt="">
+                  </div>
+                  <div class="text">
+                    <h4>Air Max Freenlaya</h4>
+                    <p><i class="fa-solid fa-star"></i> 4.5</p>
+                    <h6>$189</h6>
+                    <h2>Add to cart</h2>
+                  </div>
+                </div>
+                <div class="box b">
+                  <div class="images">
+                    <img src="img/pngwing.com (1).png" alt="">
+                  </div>
+                  <div class="text">
+                    <h4>Air Max Freenlaya</h4>
+                    <p><i class="fa-solid fa-star"></i> 4.5</p>
+                    <h6>$189</h6>
+                    <h2>Add to cart</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="image">
+              <img src="img/pngwing.com (9).png" alt="">
+              <!-- <svg width="62" height="87" viewBox="0 0 62 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_204_77)">
+                <path d="M44.3754 35.0312C48.5528 42.3466 50.1109 66.343 46.9148 74.3297C46.5243 73.5207 46.1923 72.9556 45.9696 72.2998C45.4915 71.125 45.0754 69.9353 44.5353 68.7753C44.0391 67.7983 43.3026 67.459 42.6175 67.8811C41.7466 68.3477 41.8454 69.0332 42.0973 69.8109C43.1523 72.8461 44.2839 75.9273 45.4774 78.9937C46.014 80.4124 47.1696 80.5868 48.3573 79.5285C48.8419 79.09 49.2206 78.4834 49.7052 78.0449C52.7107 75.0037 55.6689 72.0382 58.6272 69.0728C58.8931 68.8156 59.2356 68.6046 59.3011 68.331C59.432 67.7839 59.5811 67.039 59.3075 66.7177C59.0194 66.3355 58.2502 66.133 57.7545 66.2518C57.1969 66.3855 56.7123 66.8239 56.2132 67.2015C54.8688 68.4262 53.6156 69.7581 52.2712 70.9829C51.896 71.3307 51.5061 71.6176 50.9596 72.0709C50.9193 71.6293 50.8754 71.4464 50.9081 71.3096C52.8663 58.9777 51.2234 46.9287 47.8638 35.0977C47.378 33.3445 46.6445 31.6506 45.7543 30.1233C44.576 28.2137 43.8933 26.1853 43.5058 24.0217C42.6834 19.7704 41.0848 15.834 38.3529 12.3626C36.8355 10.4054 34.9902 8.7201 32.7843 7.44362C27.7272 4.65848 22.6607 4.84123 17.7853 8.00829C13.9375 10.5422 11.3405 14.1948 9.58576 18.3546C6.23648 26.2491 6.01839 34.3601 8.37739 42.5627C8.52351 43.1724 8.84089 43.6766 9.09632 44.1956C9.39558 44.8975 9.93157 45.2204 10.7224 44.9663C11.5132 44.7123 11.615 44.0433 11.4542 43.3726C11.3666 43.0068 11.2023 42.5949 11.1146 42.229C9.194 35.8555 9.3583 29.4336 11.0973 23.021C12.0869 19.4959 13.7364 16.2638 16.1369 13.432C17.7362 11.6304 19.5324 10.1039 21.8137 9.2348C25.6001 7.81155 29.2054 8.36584 32.3851 10.6983C36.4836 13.5843 38.6509 17.7067 40.1116 22.7077C39.4663 22.4755 39.0361 22.3208 38.6678 22.1511C38.3762 22.0276 38.0699 21.8431 37.7636 21.6587C33.0566 19.2409 28.1251 19.7137 24.0955 23.1293C23.1737 23.9305 22.2666 24.7926 21.5745 25.7321C15.7212 33.8399 15.0951 42.4355 19.1749 51.2572C21.0359 55.1952 24.2922 57.5738 28.9542 57.617C32.0416 57.6507 34.607 56.3266 36.7966 54.2546C38.7675 52.3638 40.1879 50.0893 41.2874 47.5693C42.7691 44.1841 43.6056 40.5667 44.103 36.9016C44.1574 36.3083 44.2883 35.7612 44.3754 35.0312ZM19.974 45.8436C19.2025 41.2577 19.5643 36.2068 21.2097 32.1376C22.2326 29.5715 23.7003 27.2212 25.8864 25.4078C29.0708 22.8395 32.5042 22.4034 36.1065 24.3123C37.6087 25.1127 38.9507 26.3384 40.2161 27.5179C40.734 28.0385 41.0771 28.9233 41.1759 29.6088C41.6423 36.202 40.738 42.5434 37.4933 48.4142C36.623 49.9767 35.399 51.4305 34.102 52.5794C30.353 55.7989 25.5594 55.2071 22.8345 51.2183C21.6053 49.6432 20.9372 47.6758 19.974 45.8436Z" fill="#F2C94C"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_204_77">
+                <rect width="78" height="44" fill="white" transform="matrix(-0.233067 -0.972461 -0.972461 0.233067 61.757 76.6876)"/>
+                </clipPath>
+                </defs>
+              </svg>                 -->
+              <div class="para d-flex align-items-center">
+                <div class="text">
+                  <p>Nike air max</p>
+                  <h2>120$</h2>
+                </div>
+                <div class="btnn">Buy Now</div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="user">
+            <div class="box">
+              <h1>20K+</h1>
+              <p>Order Complated</p>
+            </div>
+            <div class="box">
+              <h1>40K+</h1>
+              <p>Regulaarrrs visitor</p>
+            </div>
+              <div class="box">
+                <h1>15K+</h1>
+                <p>Happy Costumers</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!-- landing page -->
+      <!-- offer -->
+      <div class="team text-center pt-5 pb-5">
+        <div class="container pb-5 pt-5">
+          <h1 class="main-title fw-bold">What we<span> Offer</span></h1>
+          <div class="row mt-5">
+            <div class="col-md-6 col-lg-3 col-sm-12">
+              <div class="box">
+                <div class="icon">
+                  <i class="fa-solid fa-calendar-day fa-5x"></i>
+                </div>
+                <h2 class="p-3">24/7 Support</h2>
+                <blockquote class="p-3">"I dont understand how we got by those trops.I thought we were dead"</blockquote>
+                <a class="navbar-brand" href="#"><svg width="48" height="19" viewBox="0 0 48 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M48 0L12.8837 16.908C9.97171 18.3012 7.52569 19 5.54767 19C3.30765 19 1.68164 18.1134 0.673633 16.3381C0.039628 15.1982 -0.146373 13.753 0.113629 12.0002C0.373631 10.2475 1.06564 8.38162 2.18564 6.39591C3.11965 4.79014 4.64966 2.68004 6.77968 0.0633255C6.0572 1.34944 5.52741 2.76159 5.21167 4.24283C4.65166 6.94548 5.15567 8.92894 6.72368 10.1955C7.46969 10.7857 8.49569 11.082 9.8037 11.082C10.8477 11.082 12.0237 10.892 13.3317 10.5121L48 0Z" fill=""/>
+                  </svg>
+                  </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-sm-12">
+              <div class="box">
+                <div class="icon">
+                  <i class="fa-solid fa-money-from-bracket fa-5x"></i>
+                </div>
+                <h2 class="p-3">Cash back</h2>
+                <blockquote class="p-3">"I dont understand how we got by those trops.I thought we were dead"</blockquote>
+                <a class="navbar-brand" href="#"><svg width="48" height="19" viewBox="0 0 48 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M48 0L12.8837 16.908C9.97171 18.3012 7.52569 19 5.54767 19C3.30765 19 1.68164 18.1134 0.673633 16.3381C0.039628 15.1982 -0.146373 13.753 0.113629 12.0002C0.373631 10.2475 1.06564 8.38162 2.18564 6.39591C3.11965 4.79014 4.64966 2.68004 6.77968 0.0633255C6.0572 1.34944 5.52741 2.76159 5.21167 4.24283C4.65166 6.94548 5.15567 8.92894 6.72368 10.1955C7.46969 10.7857 8.49569 11.082 9.8037 11.082C10.8477 11.082 12.0237 10.892 13.3317 10.5121L48 0Z" fill=""/>
+                  </svg>
+                  </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-sm-12">
+              <div class="box">
+                <div class="icon">
+                  <i class="fa-solid fa-percent fa-5x"></i>
+                </div>
+                <h2 class="p-3">Monthly offer</h2>
+                <blockquote class="p-3">"I dont understand how we got by those trops.I thought we were dead"</blockquote>
+                <a class="navbar-brand" href="#"><svg width="48" height="19" viewBox="0 0 48 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M48 0L12.8837 16.908C9.97171 18.3012 7.52569 19 5.54767 19C3.30765 19 1.68164 18.1134 0.673633 16.3381C0.039628 15.1982 -0.146373 13.753 0.113629 12.0002C0.373631 10.2475 1.06564 8.38162 2.18564 6.39591C3.11965 4.79014 4.64966 2.68004 6.77968 0.0633255C6.0572 1.34944 5.52741 2.76159 5.21167 4.24283C4.65166 6.94548 5.15567 8.92894 6.72368 10.1955C7.46969 10.7857 8.49569 11.082 9.8037 11.082C10.8477 11.082 12.0237 10.892 13.3317 10.5121L48 0Z" fill=""/>
+                  </svg>
+                  </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-sm-12">
+              <div class="box">
+                <div class="icon">
+                  <i class="fa-solid fa-file-lines fa-5x"></i>
+                </div>
+                <h2 class="p-3">Membership</h2>
+                <blockquote class="p-3">"I dont understand how we got by those trops.I thought we were dead"</blockquote>
+                <a class="navbar-brand" href="#"><svg width="48" height="19" viewBox="0 0 48 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M48 0L12.8837 16.908C9.97171 18.3012 7.52569 19 5.54767 19C3.30765 19 1.68164 18.1134 0.673633 16.3381C0.039628 15.1982 -0.146373 13.753 0.113629 12.0002C0.373631 10.2475 1.06564 8.38162 2.18564 6.39591C3.11965 4.79014 4.64966 2.68004 6.77968 0.0633255C6.0572 1.34944 5.52741 2.76159 5.21167 4.24283C4.65166 6.94548 5.15567 8.92894 6.72368 10.1955C7.46969 10.7857 8.49569 11.082 9.8037 11.082C10.8477 11.082 12.0237 10.892 13.3317 10.5121L48 0Z" fill=""/>
+                  </svg>
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- offer -->
+      <div class="collection">
+        <div class="container">
+          <h1 class="main-title fw-bold">Our<span> Collection</span></h1>
+          <div class="list">
+            <ul class="swithcer list-unstyled d-flex justify-content-center mt-5 mb-5">
+              <li class="active rounded-pill" data-filteer=".all">All</li>
+              <li data-filteer=".des">Boots</li>
+              <li data-filteer=".code">Shoes</li>
+              <li data-filteer=".photo">Sandals</li>
+              <li data-filteer=".app">Slipper</li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 col-sm-12">
+              <div class="card">
+                <div class="box">
+                  <div class="nav">
+                    <div class="btn">sell</div>
+                    <ul>
+                      <li class="shop"><i class="fa-solid fa-cart-shopping "></i></li>
+                      <li class="heart"><i class="fa-solid fa-heart "></i></li>
+                      <li class="rating">4.8 <i class="fa-solid fa-star "></i></li>
+                    </ul>
+                  </div>  
+                  <img class="img-fluid" src="img/pngwing.com (8).png" alt="">
+                  <h3>$42.00   <span>$55.00</span></h3>
+                </div>
+                <h2>Air Max pegasus 37</h2>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-sm-12">
+              <div class="card">
+                <div class="box">
+                  <div class="nav">
+                    <div class="btn">sell</div>
+                    <ul>
+                      <li class="shop"><i class="fa-solid fa-cart-shopping "></i></li>
+                      <li class="heart"><i class="fa-solid fa-heart "></i></li>
+                      <li class="rating">4.8 <i class="fa-solid fa-star "></i></li>
+                    </ul>
+                  </div>  
+                  <img class="img-fluid" src="img/pngwing.com (4).png" alt="">
+                  <h3>$42.00   <span>$55.00</span></h3>
+                </div>
+                <h2>Air Max pegasus 37</h2>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-sm-12">
+              <div class="card">
+                <div class="box">
+                  <div class="nav">
+                    <div class="btn">sell</div>
+                    <ul>
+                      <li class="shop"><i class="fa-solid fa-cart-shopping "></i></li>
+                      <li class="heart"><i class="fa-solid fa-heart "></i></li>
+                      <li class="rating">4.8 <i class="fa-solid fa-star "></i></li>
+                    </ul>
+                  </div>  
+                  <img class="img-fluid" src="img/pngwing.com (5).png" alt="">
+                  <h3>$42.00   <span>$55.00</span></h3>
+                </div>
+                <h2>Air Max pegasus 37</h2>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-sm-12">
+              <div class="card">
+                <div class="box">
+                  <div class="nav">
+                    <div class="btn">sell</div>
+                    <ul>
+                      <li class="shop"><i class="fa-solid fa-cart-shopping "></i></li>
+                      <li class="heart"><i class="fa-solid fa-heart "></i></li>
+                      <li class="rating">4.8 <i class="fa-solid fa-star "></i></li>
+                    </ul>
+                  </div>  
+                  <img class="img-fluid" src="img/pngwing.com (7).png" alt="">
+                  <h3>$42.00   <span>$55.00</span></h3>
+                </div>
+                <h2>Air Max pegasus 37</h2>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-sm-12">
+              <div class="card">
+                <div class="box">
+                  <div class="nav">
+                    <div class="btn">sell</div>
+                    <ul>
+                      <li class="shop"><i class="fa-solid fa-cart-shopping "></i></li>
+                      <li class="heart"><i class="fa-solid fa-heart "></i></li>
+                      <li class="rating">4.8 <i class="fa-solid fa-star "></i></li>
+                    </ul>
+                  </div>  
+                  <img class="img-fluid" src="img/pngwing.com (6).png" alt="">
+                  <h3>$42.00   <span>$55.00</span></h3>
+                </div>
+                <h2>Air Max pegasus 37</h2>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-sm-12">
+              <div class="card">
+                <div class="box">
+                  <div class="nav">
+                    <div class="btn">sell</div>
+                    <ul>
+                      <li class="shop"><i class="fa-solid fa-cart-shopping "></i></li>
+                      <li class="heart"><i class="fa-solid fa-heart "></i></li>
+                      <li class="rating">4.8 <i class="fa-solid fa-star "></i></li>
+                    </ul>
+                  </div>  
+                  <img class="img-fluid" src="img/pngwing.com (4).png" alt="">
+                  <h3>$42.00   <span>$55.00</span></h3>
+                </div>
+                <h2>Air Max pegasus 37</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonail -->
+      <div class="testimonail">
+        <div class="container">
+          <h1 class="main-title fw-bold pt-5">What Our<span> Clients Say</span> <br> About Us</h1>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="box">
+              <div class="head">
+                <img class="img-fluid"src="img/avatar-05.png" alt="">
+                <div class="text">
+                  <h1>oussama</h1>
+                  <p>Designer</p>
+                </div>
+              </div> 
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores autem eaque qui dignissimos! Velit iste ea qui pariatur modi unde.</p>
+            </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="box">
+              <div class="head">
+                <img class="img-fluid"src="img/avatar-03.png" alt="">
+                <div class="text">
+                  <h1>Gorg</h1>
+                  <p>Developer</p>
+                </div>
+              </div> 
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores autem eaque qui dignissimos! Velit iste ea qui pariatur modi unde.</p>
+            </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="box">
+              <div class="head">
+                <img class="img-fluid"src="img/avatar-04.png" alt="">
+                <div class="text">
+                  <h1>yassin</h1>
+                  <p>coder</p>
+                </div>
+              </div> 
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores autem eaque qui dignissimos! Velit iste ea qui pariatur modi unde.</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonail -->
+      <div class="contact ">
+        <div class="container text-center">
+          <h1 class="main-title">Join Our<span> News Letters</span></h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, unde?Lorem ipsum dolor sit amet. Quaerat, unde?Lorem ipsum dolor sit amet.</p>
+          <div class="sent">
+            <input class="subscribe" type="text" placeholder="Enter email address">            <i class="fa-solid fa-arrow-right-to-bracket fa-2x"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer pt-5 pb-5 text-black-50 text-center text-md-start">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="info">
+                <a class="navbar-brandn" href="#"><svg width="76" height="32" viewBox="0 0 48 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M48 0L12.8837 16.908C9.97171 18.3012 7.52569 19 5.54767 19C3.30765 19 1.68164 18.1134 0.673633 16.3381C0.039628 15.1982 -0.146373 13.753 0.113629 12.0002C0.373631 10.2475 1.06564 8.38162 2.18564 6.39591C3.11965 4.79014 4.64966 2.68004 6.77968 0.0633255C6.0572 1.34944 5.52741 2.76159 5.21167 4.24283C4.65166 6.94548 5.15567 8.92894 6.72368 10.1955C7.46969 10.7857 8.49569 11.082 9.8037 11.082C10.8477 11.082 12.0237 10.892 13.3317 10.5121L48 0Z" fill="black"/>
+                  </svg>
+                  </a>
+                <p class="mb-5 mt-3">Lorem ipsut. earum, aliquam odit, perferendis rerum minima eaque libero aperiam iste dolores est maxime maiores harum.</p>
+                <div class="copyright">
+                  Created by <span>oussama</span>
+                  <div>&copy; 2022 - <span>Nike Shoes</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-2">
+              <div class="links">
+                <h5 class="text-black">Links</h5>
+                <ul class="list-unstyled">
+                  <li>Home</li>
+                  <li>Portflolio</li>
+                  <li>Testimonails</li>
+                  <li>Support</li>
+                  <li>Terms and condtions</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-2">
+              <div class="links">
+                <h5 class="text-black">About us</h5>
+                <ul class="list-unstyled">
+                  <li>Sing in</li>
+                  <li>Register</li>
+                  <li>About us</li>
+                  <li>Blog</li>
+                  <li>Contact us</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="contacts">
+                <h5 class="">Contact us</h5>
+                <p class="mt-3 lh-lg">Similique quis unde consectetur quas  Lorem, ipsum dolor ea quaerat debitis, fugiat cumque veniam ab in odit obcaecati </p>
+                <a class="btn btn-danger mt-3 pe-3 ps-3 w-100 rounded-pill main-btn" href="#">oussamatazilatrache@gamil.com</a>
+                <ul class="d-flex mt-5 list-unstyled gap-4">
+                  <li>
+                    <a class="d-block" href="#"
+                      ><i class="fa-brands fa-facebook fa-lg facebook rounded-circle p-1"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="d-block" href="#"
+                      ><i class="fa-brands fa-twitter fa-lg twitter rounded-circle p-1"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="d-block" href="#"
+                      ><i class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-1"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="d-block" href="#"
+                      ><i class="fa-brands fa-youtube fa-lg youtube rounded-circle p-1"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="indes.js"></script>
+</body>
+</html>
